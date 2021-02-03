@@ -1,10 +1,16 @@
 {
   "name": "binance-api-node",
-  "version": "0.10.26.2",
+  "version": "0.10.26.3",
   "description": "A node API wrapper for Binance",
   "main": "dist",
   "engines": {
     "node": ">= 12.0.0"
+  },
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "lodash.zipobject": "^4.1.3",
+    "reconnecting-websocket": "^4.2.0",
+    "ws": "^7.2.0"
   },
   "author": "Balthazar Gronon <git@balthazar.dev>",
   "homepage": "https://github.com/Ashlar/binance-api-node",
